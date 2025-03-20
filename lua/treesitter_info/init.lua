@@ -14,7 +14,7 @@ local function make_entry(entry)
 	local displayer = entry_display.create({
 		separator = "",
 		items = {
-			{ width = vim.api.nvim_win_get_width(pickers.preview_win) },
+			{ width = 61 },
 			{ width = 4 },
 			{ remaining = true },
 		},
