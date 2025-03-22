@@ -14,7 +14,7 @@ local function make_entry(entry)
 	local displayer = entry_display.create({
 		separator = "",
 		items = {
-			{ width = 65 },
+			{ width = 57 },
 			{ width = 4 },
 			{ remaining = true },
 		},
